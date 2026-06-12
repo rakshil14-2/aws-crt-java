@@ -320,3 +320,53 @@ To debug native code with VSCode or CLion or any other IDE:
 
 ## Attribution
 This library exposes native XXHash implementation (https://github.com/Cyan4973/xxHash) through JNI interface.
+
+<!-- PLATFORM_SUPPORT_START -->
+# Platform Support
+
+## Tier 1 — Fully Supported & Tested in CI
+
+| Platform | Architecture |
+|----------|--------------|
+| Android-15 | 8.0 |
+| al2 | x64 |
+| alpine-3.16 | x64, armv7, arm64 |
+| fedora-34 | x64 |
+| linux-arm | armv6, armv7, arm64 |
+| linux-fips | x64, armv8 |
+| macOS-15 | x64, arm64 |
+| manylinux2014 | x64,x86 |
+| opensuse-leap | x64 |
+| openwrt | x64 |
+| raspberry | raspbian-bullseye |
+| rhel8 | x64 |
+| windows-11 | x86, x64 |
+
+## Tier 2 — Supported (Not Tested in CI)
+
+| Platform | Architecture |
+|----------|--------------|
+| macos-10.15+ | x86_64 |
+| windows-10+ | x86 |
+
+## Supported Tools
+
+| Name | Version | Platforms |
+|------|---------|-----------|
+| Cmake | 3.9+ | all |
+| GraalVM | v0.31.1 | all |
+| JDK | 8+ | All |
+| clang | 6+ | linux |
+| gcc | 4.4+ | linux |
+| gradle | 8.5.1 | Android |
+| maven |  | All |
+| msvc | 15+ |  |
+| ninja |  | macos |
+
+## Supported Frameworks
+
+| Name | Version | Platforms |
+|------|---------|-----------|
+| ndk | 28.0.12433566 | android |
+
+<!-- PLATFORM_SUPPORT_END -->
